@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- 用来检查是移动端 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <title>音乐播放器</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>    
+   <div class="content-wrap">
+       <!-- 专辑图片 -->
+       <div class="song-img">
+           <div class="img-wrapper">
+               <img src="" alt="">
+           </div>
+       </div>
+       <!-- 歌曲信息 -->
+       <div class="song-info">
+           <!-- <h1 class="song-name">丑八怪</h1>
+           <h3 class="singer-name">薛之谦</h3>
+           <h3 class="album-name">谦谦君子</h3> -->
+       </div>
+       <!-- 播放区域 -->
+       <div class="play-area">
+           <div class="cur-time">00:00</div>
+           <!-- 进度条 -->
+           <div class="pro-wrapper">
+               <div class="pro-bottom"></div>
+               <div class="pro-top">
+                   <div class="slide-point"></div>
+               </div>
+           </div>
+           <div class="all-time">04:00</div>
+       </div>
+
+       <!-- 控制区域 -->
+       <div class="play-control">
+           <div class="btn-wrap like-btn"></div>
+           <div class="btn-wrap prev-btn"></div>
+           <div class="btn-wrap play-btn"></div>
+           <div class="btn-wrap next-btn"></div>
+           <div class="btn-wrap list-btn"></div>
+       </div>
+   </div>
+   <script src="./js/zepto.js"></script>
+   <script src="./js/gaussBlur.js"></script>
+   <script src="./js/render.js"></script>
+   <script src="./js/controlManager.js"></script>
+   <script src="./js/audioManager.js"></script>
+   <script src="./js/processor.js"></script>
+   <script src="./js/playlist.js"></script>
+   <script src="./js/index.js"></script>
+</body>
+</html>
